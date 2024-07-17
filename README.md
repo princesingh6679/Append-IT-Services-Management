@@ -1,2 +1,2 @@
 # Append-IT-Services-Management
-I Developed this  Responsive Append IT Services Management Project Using HTML , CSS ,Bootstrap and JavaScript
+I Developed this  Responsive Project Append IT Services Management  Using HTML , CSS ,Bootstrap and JavaScript
