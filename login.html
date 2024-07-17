@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="shortcut icon" href="./img/logo1.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="./index.html#">Home</a></li>
+          <li><a href="./index.html#about">About</a></li>
+          <li><a href="./index.html#service">Service</a></li>
+          <li><a href="./index.html#portfolio">Portfolio</a></li>
+          <li><a href="./index.html#blog">Blog</a></li>
+          <li><a href="./index.html#Contact">Contact</a></li>
+          <li><a href="./login.html#login">Login</a></li>
+        </ul>
+        <ul>
+          <li class=""><a href="#">TechFlexa</a></li>
+          <li class="hideOnMobile"><a href="./index.html#">Home</a></li>
+          <li class="hideOnMobile"><a href="./index.html#about">ABout</a></li>
+          <li class="hideOnMobile"><a href="./index.html#service">Service</a></li>
+          <li class="hideOnMobile"><a href="./index.html#portfolio">Portfolio</a></li>
+          <li class="hideOnMobile"><a href="./index.html#blog">Blog</a></li>
+          <li class="hideOnMobile"><a href="./index.html#Contact">Contact</a></li>
+          <li class="hideOnMobile"><a href="./login.html#login">Login</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+      
+<!-- Javascript for using showsidebar -->
+    
+      <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
+      
+
+    <!-- Login Style -->
+    <div class="visme_d" data-title="Untitled Project" data-url="4d6my0mq-untitled-project" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="81476"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+
+    
+</body>
+</html>
